@@ -6,12 +6,13 @@ html {
     box-sizing: inherit;
 }
 
-h1 span {
-    color: #037bc0;
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.navegacion {
-    
+.nombre-sitio span {
+    color: #037bc0;
 }
 
 .enlace {
