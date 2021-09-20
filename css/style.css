@@ -17,6 +17,11 @@ a {
     margin: 0 auto; /* margin-inline: auto; */
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* Header y Navegación */
 .nombre-sitio {
     margin-top: 50px;
@@ -46,9 +51,30 @@ a {
 }
 
 /* Categorías */
+.categorias h2 {
+    text-align: center;
+}
+
 .listado-categorias {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
+
+.categoria a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover {
+    background: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+}
+
+
 
 
 
