@@ -41,3 +41,18 @@ Ejemplo:
 
     Nota: Es posible utilizar mas de un enfoque 
               en un mismo proyecto.
+
+
+DEGRADADOS
+    - Primero parametro : Dirección del Degradado
+    - to right : De isquierda a derecha
+    - to left : De derecha a isquierda
+    - to top : De abajo a arriba
+    - to bottom : De arriba a abajo
+
+Ejemplo: 
+background-image: linear-gradient(to right, black 50%, red 100%);
+// Del 0% al 50% es en color negro y a partir del 51% comienza el 
+degradado hacia un color Rojo cubriendo el 100%.
+// Un cambio de color directo 
+background-image: linear-gradient(to right, black 50%, red 50%, red 100%);
