@@ -105,11 +105,28 @@ img {
 /* Nosotros */
 .sobre-nosotros {
     background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
-    padding: 10rem 0;
+    padding: 5rem 0;
     background-repeat: no-repeat;
     background-size: 100%, 50%; /* Tamaño del linear-gradient, Tamaño de la Imágen */
     background-position: left center;
 }
+
+.sobre-nosotros-grid {
+    /* display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 4rem; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-nosotros {
+    /* grid-column: 2 / 3; */
+    flex-basis: 50%; /* El elemento hijo tiene un ancho del 50% */
+    padding-left: 10rem;
+    color: #fff;
+}
+
+
 
 
 
