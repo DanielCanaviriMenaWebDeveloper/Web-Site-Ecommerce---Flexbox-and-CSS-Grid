@@ -252,14 +252,16 @@ img {
     text-align: center;
 }
 
+/* Página Nosotros */
+.contenido-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Opción descartada por cascada */
+    grid-template-columns: repeat( auto-fit, minmax(25rem, 1fr) ); /* Asigna 1 fr arriba de 250 px y debajo de 250 px aplica auto-fit a cada elemento del grid. */
+    column-gap: 4rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+.informacion-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
