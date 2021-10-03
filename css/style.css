@@ -302,3 +302,9 @@ img {
     color: #037bc0;
 }
 
+/* Página Entrada Blog */
+.contenido-entrada-blog {
+    width: 60rem;
+    margin: 0 auto;
+}
+
