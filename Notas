@@ -61,3 +61,11 @@ Pendientes
 Curso de Coursera React 
 Pagina de Ofertras
 https://dojopy.com/
+
+
+Formularios:
+
+    Atributos para los elementos input:
+        value:        Coloca un valor por defecto al campo. 
+        readonly:   Evita que se pueda modificar el valor definido en el campo.
+        require:      Indica que introducir un valor al campo es requerido (obligatorio).
