@@ -78,3 +78,6 @@ Formularios:
             - datetime-local: Fecha y Hora 
             - file: Te permite seleccionar Archivos
             - password: Para ingresar contraseñas
+            - radio: Permite seleccionar solo una opción / Se relaciona mediante el atributo name 
+            - checkbox: Permite seleccionar mas de una opción
+            
