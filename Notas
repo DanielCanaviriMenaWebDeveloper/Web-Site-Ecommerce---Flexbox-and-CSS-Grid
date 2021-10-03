@@ -69,3 +69,12 @@ Formularios:
         value:        Coloca un valor por defecto al campo. 
         readonly:   Evita que se pueda modificar el valor definido en el campo.
         require:      Indica que introducir un valor al campo es requerido (obligatorio).
+        type:  
+            - text : Campo para texto / Default
+            - tel: Campo para teléfono
+            - email: Campo para email
+            - date: Fecha Simple
+            - time: Hora Simple 
+            - datetime-local: Fecha y Hora 
+            - file: Te permite seleccionar Archivos
+            - password: Para ingresar contraseñas
